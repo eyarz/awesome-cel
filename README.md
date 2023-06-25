@@ -22,6 +22,13 @@ DoD:
 - [ ] static website (github pages)
 - [ ] link validator + archived repos
 - [ ] auto-update ToC
+      
+## Contents
+
+<!-- START doctoc -->
+<!-- END doctoc -->
+
+---
 
 ### Packages
 
