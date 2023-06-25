@@ -21,7 +21,7 @@ Popular products that implemented CEL support:
 DoD:
 - [ ] static website (github pages)
 - [ ] link validator + archived repos
-- [ ] auto-update ToC
+- [x] auto-update ToC
       
 ## Table of Contents
 
