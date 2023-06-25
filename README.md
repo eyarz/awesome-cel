@@ -1,13 +1,6 @@
 # awesome-cel
 
-The Common Expression Language (CEL) is a simple language built on protocol buffer types. CEL can be used on its own, or embedded into a larger product. CEL evaluates expressions that are similar to single-line functions or lambda expressions. While CEL is commonly used for boolean decisions, it can also be used to construct more complex objects like JSON or protobuf messages.
-
-| CEL Expression | Purpose | 
-| -------------- | ------- |
-| `names.isSorted()` | Verify that a list of names is kept in alphabetical order |
-| `items.map(x, x.weight).sum() == 1.0` | Verify that the "weights" of a list of objects sum to 1.0 |
-| `lowPriorities.map(x, x.priority).max() < highPriorities.map(x, x.priority).min()` | Verify that two sets of priorities do not overlap |
-| `names.indexOf('should-be-first') == 1` | Require that the first name in a list is a specific value |
+The Common Expression Language (CEL) is a simple language built on protocol buffer types. CEL can be used on its own, or embedded into a larger product.  
 
 Popular products that implemented CEL support:
 
@@ -17,6 +10,17 @@ Popular products that implemented CEL support:
 * **KrakenD conditional requests and responses**
 * **Google Cloud Certificate Authority Service**
 * **Cloud Firestore / Cloud Storage security rules**
+  
+CEL evaluates expressions that are similar to single-line functions or lambda expressions. While CEL is commonly used for boolean decisions, it can also be used to construct more complex objects like JSON or protobuf messages.
+
+Here are some CEL syntax examples:
+
+| CEL Expression | Purpose | 
+| -------------- | ------- |
+| `names.isSorted()` | Verify that a list of names is kept in alphabetical order |
+| `items.map(x, x.weight).sum() == 1.0` | Verify that the "weights" of a list of objects sum to 1.0 |
+| `lowPriorities.map(x, x.priority).max() < highPriorities.map(x, x.priority).min()` | Verify that two sets of priorities do not overlap |
+| `names.indexOf('should-be-first') == 1` | Require that the first name in a list is a specific value |
 
 DoD:
 - [ ] static website (github pages)
