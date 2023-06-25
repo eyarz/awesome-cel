@@ -4,10 +4,10 @@ The Common Expression Language (CEL) is a simple language built on protocol buff
 
 | CEL Expression | Purpose | 
 | -------------- | ------- |
-| names.isSorted() | Verify that a list of names is kept in alphabetical order |
-| items.map(x, x.weight).sum() == 1.0 | Verify that the "weights" of a list of objects sum to 1.0 |
-| lowPriorities.map(x, x.priority).max() < highPriorities.map(x, x.priority).min() | Verify that two sets of priorities do not overlap |
-| names.indexOf('should-be-first') == 1 | Require that the first name in a list is a specific value |
+| `names.isSorted()` | Verify that a list of names is kept in alphabetical order |
+| `items.map(x, x.weight).sum() == 1.0` | Verify that the "weights" of a list of objects sum to 1.0 |
+| `lowPriorities.map(x, x.priority).max() < highPriorities.map(x, x.priority).min()` | Verify that two sets of priorities do not overlap |
+| `names.indexOf('should-be-first') == 1` | Require that the first name in a list is a specific value |
 
 Popular products that implemented CEL support:
 
