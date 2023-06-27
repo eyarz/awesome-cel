@@ -20,11 +20,6 @@ Here are some CEL syntax examples:
 | `items.map(x, x.weight).sum() == 1.0` | Verify that the "weights" of a list of objects sum to 1.0 |
 | `lowPriorities.map(x, x.priority).max() < highPriorities.map(x, x.priority).min()` | Verify that two sets of priorities do not overlap |
 | `names.indexOf('should-be-first') == 1` | Require that the first name in a list is a specific value |
-
-DoD:
-- [ ] static website (github pages)
-- [ ] link validator + archived repos
-- [x] auto-update ToC
       
 ## Table of Contents
 
