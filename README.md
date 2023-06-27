@@ -8,7 +8,6 @@ Popular products that implemented CEL support:
 * **Caddy server standard matcher**
 * **Kubernetes validation and policy rules**
 * **KrakenD conditional requests and responses**
-* **Google Cloud Certificate Authority Service**
 * **Cloud Firestore / Cloud Storage security rules**
   
 CEL evaluates expressions that are similar to single-line functions or lambda expressions. While CEL is commonly used for boolean decisions, it can also be used to construct more complex objects like JSON or protobuf messages.
