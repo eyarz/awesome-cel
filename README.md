@@ -55,8 +55,8 @@ DoD:
 
 ### Tools
 
-* [vscode-cel](ttps://marketplace.visualstudio.com/items?itemName=hmarr.cel) - CEL support for Visual Studio Code
-* [CEL Playground](https://playcel.undistro.io/) - an interactive WebAssembly (Wasm) powered environment to explore and experiment with the CEL
+* [vscode-cel](https://marketplace.visualstudio.com/items?itemName=hmarr.cel) - CEL support for Visual Studio Code
+* [CEL Playground](https://playcel.undistro.o/) - an interactive WebAssembly (Wasm) powered environment to explore and experiment with the CEL
 
 ### Kubernetes
 
