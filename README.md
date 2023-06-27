@@ -67,3 +67,4 @@ Here are some CEL syntax examples:
 
 * [Webhook Fatigue? You're Not Alone: Introducing the CEL](https://www.youtube.com/watch?v=gJWMvsC7Mzo) - overview of Kubernetes 1.23 CEL support for simplifying CRD validation and reducing reliance on webhooks for extensibility
 * [Common Expression Language in Kubernetes](https://kubernetes.io/docs/reference/using-api/cel/) - the Common Expression Language in Kubernetes API
+* [validating-admission-policy](https://github.com/datreeio/validating-admission-policy) - Policy local testing guide and valuable resources for Kubernetes Validation Admission
