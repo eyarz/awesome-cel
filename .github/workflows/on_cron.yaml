@@ -14,20 +14,21 @@ jobs:
 
       - name: Check links
         uses: lycheeverse/lychee-action@v1.8.0
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
           args: --verbose --no-progress --timeout 10 --max-concurrency 2 'README.md'
-          token: ${{ secrets.GITHUB_TOKEN }}
           lycheeVersion: 0.13.0
           output: ./lychee/out.md
       
       - name: Get current date
-        id: date
-        run: echo "::set-output name=now::$(date +'%d-%m-%Y')"
+        id: get_date
+        run: echo "now=$(date +'%d-%m-%Y')" >> "$GITHUB_OUTPUT" 
         
       - name: Create issue when fail
         if: ${{ steps.lychee.outputs.exit_code }} != 0
         uses: peter-evans/create-issue-from-file@v4
         with:
-          title: Automated Links Checker Report for ${{ steps.date.outputs.now }}
+          title: Automated Links Checker Report for ${{ steps.get_date.outputs.now }}
           content-filepath: ./lychee/out.md
           labels: links validator
