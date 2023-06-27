@@ -13,10 +13,10 @@ jobs:
 
       - name: Check links
         uses: lycheeverse/lychee-action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           args: --vv --no-progress --timeout 10 --max-concurrency 2 'README.md'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          lycheeVersion: 0.13.0
           output: ./lychee/out.md
       
       - name: Get current date
