@@ -62,6 +62,7 @@ Here are some CEL syntax examples:
 
 * [vscode-cel](https://marketplace.visualstudio.com/items?itemName=hmarr.cel) - CEL support for Visual Studio Code
 * [CEL Playground](https://playcel.undistro.io/) - an interactive WebAssembly (Wasm) powered environment to explore and experiment with the CEL
+* [Marvin](https://github.com/undistro/marvin) - a CLI tool that scans a k8s cluster by performing CEL expressions to report potential issues, misconfigurations
 
 ### Kubernetes
 
