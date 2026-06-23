@@ -62,6 +62,7 @@ Here are some CEL syntax examples:
 
 * [vscode-cel](https://marketplace.visualstudio.com/items?itemName=hmarr.cel) - CEL support for Visual Studio Code
 * [CEL Playground](https://playcel.undistro.io/) - an interactive WebAssembly (Wasm) powered environment to explore and experiment with the CEL
+* [cel-lab](https://github.com/michalklempa/cel-lab) - a web playground to evaluate CEL expressions against your own Protobuf schemas; upload a descriptor set, pick a message type, and test live
 
 ### Kubernetes
 
