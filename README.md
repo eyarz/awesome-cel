@@ -52,6 +52,7 @@ Here are some CEL syntax examples:
 * [cel-java](https://github.com/google/cel-java) - Java implementations of CEL
 * [cel-python](https://pypi.org/project/cel-python/) - Python implementations of CEL
 * [cel-rust](https://github.com/thesayyn/cel-rust) - Rust implementations of CEL
+* [Great.Parts.Cel](https://www.nuget.org/packages/Great.Parts.Cel) - .NET (C#) implementation of CEL for .NET 10 and .NET 11, with a source generator and Native AOT support
 
 ### Resources
 
